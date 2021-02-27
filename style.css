@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+#frame {
+    display:flex;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    cursor: pointer;
+    transition: 0.8s;
+    margin: 0 8px 8px 0;
+    text-align: center;
+    line-height: 100px;
+}
+.win {
+    background-color: pink;
+    border-radius: 50%;
+    transform: rotate(360deg);
+}
+.lose { 
+    transform: scale(0.9);
+}
+
+/* おみくじ用 */
+#btn {
+    padding: 10px 10px 10px 10px;
+    width: 200px;
+    height: 200px;
+    background: pink;
+    border-radius: 50%;
+    margin: 100px;
+    text-align: center;
+    line-height: 200px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 42px;
+    cursor: pointer;
+    box-shadow: 0 10px 0 #d1483e;
+    user-select: none;
+}
+
+#btn:hover {
+    opacity: 0.9;
+}
+
+#btn:active {
+    box-shadow: 0 5px 0 #d1483e;
+    margin-top: 35px;
+}
